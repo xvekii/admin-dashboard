@@ -34,7 +34,7 @@ body {
   font-size: 1.1rem;
 }
 
-.first-nav-wrapper {
+.nav-wrapper {
   display: grid;
   grid-template-columns: 2rem 1fr;
 }
@@ -47,14 +47,18 @@ body {
   align-items: center;
 }
 
-.first-nav-section {
+.first-nav-section, .second-nav-section {
   display: grid;
   align-items: center;
   gap: 1.5rem;
 }
 
-.first-nav-section a {
+.first-nav-section a, .second-nav-section a {
   padding-left: 1.1rem;
+}
+
+.nav-wrapper {
+  margin-top: 2rem;
 }
 
 ul {
