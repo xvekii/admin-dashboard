@@ -1,0 +1,19 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+.header {
+  background-color: #FFFFFF;
+}
+
+.nav-side {
+  background-color: #4A4E69;
+}
+
+.main {
+  background-color: #FBFBFF;
+}
