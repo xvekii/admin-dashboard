@@ -21,11 +21,34 @@ body {
   background-color: #4A4E69;
   color: #FFFFFF;
   grid-row: 1 / 4;
+  padding: 0 2rem;
+  font-family: Verdana;
+  font-size: 1.1rem;
+}
 
+
+/* .first-nav-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+
+.first-nav-section a {
+  padding-left: 1.1rem;
+ 
+}
+
+ul {
+  padding: 0;
 }
 
 li {
   list-style-type: none;
+}
+
+li > img {
+  display: flex;
+  align-items: center;
 }
 
 a {
