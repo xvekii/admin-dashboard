@@ -17,6 +17,14 @@ body {
   background-color: #FFFFFF;
 }
 
+.dashboard-logo {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 0.8rem;
+  font-size: 1.3rem;
+}
+
 .nav-side {
   background-color: #4A4E69;
   color: #FFFFFF;
@@ -26,16 +34,27 @@ body {
   font-size: 1.1rem;
 }
 
+.first-nav-wrapper {
+  display: grid;
+  grid-template-columns: 2rem 1fr;
+}
 
-/* .first-nav-wrapper {
-  display: flex;
-  justify-content: center;
+.nav-icons {
+  display: grid;
+  grid-template-columns: 24px;
+  justify-items: start;
+  gap: 1.5rem;
   align-items: center;
-} */
+}
+
+.first-nav-section {
+  display: grid;
+  align-items: center;
+  gap: 1.5rem;
+}
 
 .first-nav-section a {
   padding-left: 1.1rem;
- 
 }
 
 ul {
