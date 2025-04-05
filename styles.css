@@ -6,14 +6,34 @@ body {
   margin: 0;
 }
 
+.container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+}
+
 .header {
   background-color: #FFFFFF;
 }
 
 .nav-side {
   background-color: #4A4E69;
+  color: #FFFFFF;
+  grid-row: 1 / 4;
+
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FFFFFF;
 }
 
 .main {
-  background-color: #FBFBFF;
+  /* background-color: #FBFBFF; */
+  background-color:rgb(92, 61, 91);
 }
