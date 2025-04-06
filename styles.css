@@ -93,7 +93,7 @@ a {
   gap: 1.6rem;
 }
 
-.projects-container, .ann-trend-container {
+.projects-container {
   /* border: 1px dotted gray; */
   padding: 0.5rem 1.5rem 3rem;
 }
@@ -112,10 +112,10 @@ a {
  font-size: 0.7rem;
 }
 
-.project-card p:nth-of-type(1) {
+.proj-card-icons-span {
   display: flex;
   justify-content: flex-end;
-  gap: 30px;
+  gap: 25px;
 }
 
 h4 {
@@ -124,6 +124,7 @@ h4 {
 }
 
 .project-card h4 {
+  padding: 0;
   margin-bottom: 6px;
   font-size: 0.8rem;
 }
@@ -135,4 +136,44 @@ h4 {
 .project-card img {
   width: 80%;
   height: auto;
+}
+
+.inner-ann-trend-wrapper p {
+  margin-top: 0;
+  color: #000000b3;
+  font-size: 0.6rem;
+}
+
+.ann-trend-container h4 {
+  padding: 0;
+  margin-bottom: 0;
+}
+
+.ann-trend-container {
+  /* display: grid; */
+  padding: 0.6rem 2rem 2rem 0;
+}
+
+h5 {
+  margin-bottom: 6px;
+  font-size: 0.7rem;
+}
+
+.ann-wrapper {
+  border: 1px solid orange;
+  padding: 0.6rem 2rem;
+}
+
+.trend-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.trending-ul {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.trend-div {
+  display: grid;
 }
