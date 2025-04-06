@@ -138,6 +138,18 @@ h4 {
   height: auto;
 }
 
+.trend-container h4 {
+  padding: 0 0 0.5rem 0;
+}
+
+.inner-ann-trend-wrapper {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+  gap: 2.3rem;
+  padding: 0.5rem 1.5rem 3rem;
+}
+
 .inner-ann-trend-wrapper p {
   margin-top: 0;
   color: #000000b3;
@@ -145,13 +157,11 @@ h4 {
 }
 
 .ann-trend-container h4 {
-  padding: 0;
   margin-bottom: 0;
 }
 
 .ann-trend-container {
-  /* display: grid; */
-  padding: 0.6rem 2rem 2rem 0;
+  padding: 0 2rem 2rem 0;
 }
 
 h5 {
@@ -161,19 +171,45 @@ h5 {
 
 .ann-wrapper {
   border: 1px solid orange;
-  padding: 0.6rem 2rem;
+  padding: 0.6rem 2rem 1.6rem;
 }
 
 .trend-wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 3rem 1fr;
+  border: 1px solid orange;
+  padding: 0.6rem 2rem;
+}
+
+.ann-wrapper, .trend-wrapper {
+  background-color: #FFFFFF;
+  box-shadow: 3px 4px 5px 1px #00000038;
+  border-radius: 10px;
 }
 
 .trending-ul {
   display: grid;
   grid-template-columns: 1fr;
+  align-items: center;
+  gap: 1.6rem;
+  padding-left: 1rem;
 }
 
 .trend-div {
   display: grid;
+}
+
+.handle-span {
+  font-size: 0.6rem;
+}
+
+.desc-span {
+  color: #000000b3;
+  font-size: 0.6rem;
+}
+
+.trend-icons {
+  display: grid;
+  grid-template-columns: 1rem;
+  gap: 20px;
 }
