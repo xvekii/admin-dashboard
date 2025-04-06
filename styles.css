@@ -4,6 +4,7 @@
 
 body {
   margin: 0;
+  font-family: Verdana;
 }
 
 .container {
@@ -30,7 +31,6 @@ body {
   color: #FFFFFF;
   grid-row: 1 / 4;
   padding: 0 2rem;
-  font-family: Verdana;
   font-size: 1.1rem;
 }
 
@@ -80,6 +80,37 @@ a {
 }
 
 .main {
-  /* background-color: #FBFBFF; */
-  background-color:rgb(92, 61, 91);
+  background-color: #FBFBFF;
+  /* background-color:rgb(92, 61, 91); */
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+
+.projects-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 1.8rem;
+}
+
+.projects-container, .ann-trend-container {
+  border: 1px dotted gray;
+  padding: 1.5rem;
+}
+
+.project-card {
+  background-color: #FBFBFF;
+  border: 1px dotted purple;
+  border-radius: 10px;
+  padding: 1rem;
+
+}
+
+.project-card p {
+ margin-top: 0;
+ color: #000000b3;
+}
+
+.project-card h4 {
+  margin-bottom: 4px;
 }
