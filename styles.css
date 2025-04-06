@@ -19,6 +19,58 @@ body {
   background-color: #FFFFFF;
 }
 
+.search-login-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 10px;
+}
+
+.search-wrapper {
+  display: inline-flex;
+  align-items: center;
+}
+
+.search-div {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+#search {
+  border-radius: 20px;
+  border: none;
+  background-color:rgba(208, 198, 198, 0.59);
+  height: 1.6rem;
+  width: 400px;
+}
+
+label {
+  display: flex;
+  align-items: center;
+}
+
+.greet-buttons {
+  display: inline-flex;
+  gap: 25px;
+  align-items: center;
+}
+
+.login-bell {
+  width: 9%;
+  height: auto;
+}
+
+.login-user-icon {
+  width: 80%;
+  height: auto;
+}
+
+.login-user-img-span {
+  display: flex;
+  justify-content: center;
+}
+
 .dashboard-logo {
   display: flex;
   justify-content: flex-start;
