@@ -17,13 +17,16 @@ body {
 
 .header {
   background-color: #FFFFFF;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  height: 130px;
+  box-shadow: 3px 3px 5px 1px #00000038;
 }
 
 .search-login-wrapper {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding-top: 10px;
 }
 
 .search-wrapper {
@@ -42,7 +45,7 @@ body {
   border: none;
   background-color:rgba(208, 198, 198, 0.59);
   height: 1.6rem;
-  width: 400px;
+  width: 500px;
 }
 
 label {
@@ -50,7 +53,7 @@ label {
   align-items: center;
 }
 
-.greet-buttons {
+.greet-icons {
   display: inline-flex;
   gap: 25px;
   align-items: center;
@@ -70,6 +73,52 @@ label {
   display: flex;
   justify-content: center;
 }
+
+.greet-user-icon {
+  display: flex;
+  align-items: center;
+}
+
+.greet-user-info-div {
+  display: grid;
+  align-items: center;
+  align-content: center;
+}
+
+.greet-logo-buttons-wrapper {
+  display: flex;
+  justify-content: space-around;
+  gap: 200px;
+  align-items: center;
+  padding-bottom: 0.8rem;
+}
+
+ .greet-div {
+  display: inline-flex;
+  gap: 10px;
+  padding-right: 120px;
+ }
+
+.hi-there {
+  font-size: 0.7rem;
+}
+
+.user-name {
+  font-size: 1.1rem;
+}
+
+.buttons {
+  display: inline-flex;
+  gap: 20px;
+}
+
+.greet-btn {
+  padding: 0.4rem 1.1rem;
+  border-radius: 20px;
+  border: 0;
+  background-color: #FFCC00;
+}
+
 
 .dashboard-logo {
   display: flex;
