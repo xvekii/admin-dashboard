@@ -12,13 +12,13 @@ body {
   min-height: 100vh;
   display: grid;
   grid-template-columns: 1fr 4fr;
-  grid-template-rows: 1fr 5fr;
+  grid-template-rows: 140px minmax(100px, 1fr);
 }
 
 .header {
   background-color: #FFFFFF;
   display: grid;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 1fr;
   height: 130px;
   box-shadow: 3px 3px 5px 1px #00000038;
 }
@@ -55,7 +55,7 @@ label {
 
 .greet-icons {
   display: inline-flex;
-  gap: 25px;
+  gap: 22px;
   align-items: center;
 }
 
@@ -183,7 +183,6 @@ a {
 
 .main {
   background-color: #FBFBFF;
-  /* background-color:rgb(92, 61, 91); */
   display: grid;
   grid-template-columns: 2fr 1fr;
 }
@@ -321,4 +320,68 @@ h5 {
 .trend-icons img {
   width: 2.5rem;
   height: auto; 
+}
+
+
+@media (max-width: 1198px) {
+  .projects-container {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+  
+  .search-login-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .greet-logo-buttons-wrapper {
+    gap: 30px;
+    padding-bottom: 1.1rem;
+    justify-content: center;
+  }
+
+  .greet-btn {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.7rem;
+  }
+
+  .greet-icons {
+    gap: 2px;
+  }
+
+  .greet-user-icon img {
+    width: 100%;
+  }
+
+  .hi-there {
+    font-size: 0.5rem;
+  }
+
+  .user-name {
+    font-size: 0.6rem;
+  }
+
+  .greet-div {
+    display: inline-flex;
+    /* gap: 10px; */
+    padding-right: 0;
+  }
+
+  #search {
+    width: 120px;
+  }
+  
+  .main {
+    grid-template-columns: 1fr; /* Single-column layout for smaller screens */
+    grid-template-rows: auto auto; /* Stack rows */
+  }
+
+  .projects-container {
+    order: 1; 
+    padding: 0.5rem 1.5rem 3rem 1.5rem;
+  }
+
+  .ann-trend-container {
+    order: 2; 
+  }
 }
