@@ -372,8 +372,8 @@ h5 {
   }
   
   .main {
-    grid-template-columns: 1fr; /* Single-column layout for smaller screens */
-    grid-template-rows: auto auto; /* Stack rows */
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
   }
 
   .projects-container {
@@ -383,5 +383,11 @@ h5 {
 
   .ann-trend-container {
     order: 2; 
+  }
+}
+
+@media(min-width: 1394px) {
+  .ann-wrapper {
+    padding: 1.5rem 2rem 1.6rem;
   }
 }
